@@ -1,0 +1,11 @@
+#!/bin/sh
+# [Gedit Tool]
+# Name=Make Executable
+# Languages=plain,perl,python,sh
+# Applicability=titled
+# Output=output-panel
+# Input=document
+# Save-files=document
+
+chmod +x "$GEDIT_CURRENT_DOCUMENT_PATH"
+echo "$GEDIT_CURRENT_DOCUMENT_PATH made executable"
